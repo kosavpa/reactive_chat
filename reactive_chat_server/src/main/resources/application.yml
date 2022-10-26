@@ -1,0 +1,13 @@
+# rsocket settings
+spring:
+  rsocket:
+    server:
+      port: 8090
+  # rabbitmq settings
+  rabbitmq:
+        host: localhost
+        port: 5672
+        username: username
+        password: password
+        template:
+          exchange: r_chat
